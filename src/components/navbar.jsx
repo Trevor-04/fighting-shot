@@ -78,9 +78,9 @@ function Navbar({sidebarOpen, setSidebarOpen}) {
               <button className='font-bold text-sm text-[#EBE3D5] hover:text-[#B0A695] cursor-pointer'>Articles</button>
             </Link>
             
-            <Link to='/Contact'>
+            <a href='mailto:trevortopolski@icloud.com'>
               <button className='font-bold text-sm text-[#EBE3D5] hover:text-[#B0A695] cursor-pointer'>Contact</button>
-            </Link>
+            </a>
           </div>
           
           <div className='flex items-center'>
