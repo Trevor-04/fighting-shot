@@ -6,6 +6,8 @@ import Home from './pages/home';
 import Layout from './Layout';
 import SignUpPage from './components/signup';
 import SignInPage from './components/signin';
+import Favorites from './pages/favorites';
+import Recents from "./pages/recentlyVisited"
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
               <Route path="/articles" element={<Articles/>} />
               <Route path="/signup" element={<SignUpPage />} />
               <Route path="/signin" element={<SignInPage />} />
+              <Route path="/favorites" element={<Favorites/>} />
+              <Route path="/recents" element={<Recents/>} />
             </Route>
           </Routes>
         </Router>

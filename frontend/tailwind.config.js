@@ -7,13 +7,14 @@ module.exports = {
     extend: {
       colors:
       {
-        'primary':{
-          DEFAULT: '#776B5D',
-          50: '#F3EEEA',
+        'primary': {
+          DEFAULT: '#FFFFFF'
         },
-        'secondary': '#B0A695',
-        'accent': '#EBE3D5',
-        
+        'secondary': '#E6E6FA',
+        'accent': {
+            DEFAULT: '#9696ea',
+            50: '#8e8ee8',
+        },
       },
     },
   },
